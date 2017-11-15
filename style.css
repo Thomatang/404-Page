@@ -1,10 +1,76 @@
 
+h1 {
+  color: white;
+  text-shadow: black 0px 0px 10px;
+  font-family: 'Spectral SC',serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+
+}
+
+h2 {
+  color: white;
+  text-shadow: black 0px 0px 10px;
+  font-family: 'Spectral SC',serif;
+  text-align: center;
+}
+
+p{
+  color: white;
+  text-shadow: black 0px 0px 10px;
+  font-family: 'Spectral SC',serif;
+  text-align: center;
+}
+
+label {
+  cursor: crosshair;
+}
+
+html, body {
+
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
 
 
-
-
-.backgroundbeauty {
+.background {
+    background-color: black;
+    background-image: url(http://www.darkbeautymag.com/wp-content/uploads/2016/04/Nora-Drugan-noradruganphotography-Nika-Chernyshova-Lost-in-the-Woods.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
-    background-image: url (http://www.darkbeautymag.com/wp-content/uploads/2016/04/Nora-Drugan-noradruganphotography-Nika-Chernyshova-Lost-in-the-Woods.jpg);
-    background-size: cover;
+    height: 100%;
+
+
+}
+
+
+.button {
+    background-color: #1e1c20; /* Forest Brown */
+    text-align: center;
+
+    width: 20%;
+    display: inline-block;
+    border: 2px solid #4CAF50; /* green */
+    border-radius: 20% ;
+
+  }
+
+
+.button:hover  {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    cursor: crosshair;
+  }
+
+.a:hover {
+ color: white;
+ cursor: crosshair;
+
+}
+  a:visited {
+    color: white;
 }
